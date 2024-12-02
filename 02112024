@@ -1,0 +1,16 @@
+function countVowels(str) {
+str = str.toLowerCase();
+    let count = 0;
+for (let i = 0; i < str.length; i++) {
+     if ('aeiou'.includes(str[i])) {
+            count++;
+        }
+    }
+
+    return count;
+}
+console.log(countVowels("Hello World")); 
+//code2
+let string="this is a as a dd asdm   good bad ugly  ";
+let substring="good";
+console.log(string.includes(substring));
